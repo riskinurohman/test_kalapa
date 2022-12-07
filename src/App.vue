@@ -136,7 +136,7 @@
                 <img :src="skate" class="recent-post-img rounded-1">
               </div>
               <div class="col-md-9 col-lg-8 col-7">
-                <h4 class="text-muted">Why Should Forget Facebook?</h4>
+                <h5 class="text-muted">Why Should Forget Facebook?</h5>
                 <span class="text-muted mt-2 d-block">Jan 14, 2020</span>
               </div>
             </div>
@@ -145,7 +145,7 @@
                 <img :src="mountain" class="recent-post-img rounded-1">
               </div>
               <div class="col-md-9 col-lg-8 col-7">
-                <h4 class="text-muted">Publish your passions, your way</h4>
+                <h5 class="text-muted">Publish your passions, your way</h5>
                 <span class="text-muted mt-2 d-block">Jan 14, 2020</span>
               </div>
             </div>
@@ -154,7 +154,7 @@
                 <img :src="surfing" class="recent-post-img rounded-1">
               </div>
               <div class="col-md-9 col-lg-8 col-7">
-                <h4 class="text-muted">The Best Ways to Retain More</h4>
+                <h5 class="text-muted">The Best Ways to Retain More</h5>
                 <span class="text-muted mt-2 d-block">Jan 14, 2020</span>
               </div>
             </div>
@@ -163,7 +163,7 @@
                 <img :src="paperboat" class="recent-post-img rounded-1">
               </div>
               <div class="col-md-9 col-lg-8 col-7">
-                <h4 class="text-muted">Share a Shocking Fact or Statistic</h4>
+                <h5 class="text-muted">Share a Shocking Fact or Statistic</h5>
                 <span class="text-muted mt-2 d-block">Jan 14, 2020</span>
               </div>
             </div>
@@ -174,44 +174,44 @@
           <div class="mt-5">
             <span class="text-muted">CATEGORIES</span>
             <div class="row mt-3">
-              <div class="col-md-2 col-3">
+              <div class="col-md-3 col-lg-3 col-3">
                 <div class="bg-purple-custom text-purple rounded-1 p-2 text-center">
                   <i class="fas fa-clock" style="font-size: 1em"></i>
                 </div>
               </div>
-              <div class="col-md-10 col-9 text-muted f-w-500 p-2">Fashion</div>
+              <div class="col-md-9 col-lg-9 col-9 text-muted f-w-500 p-2">Fashion</div>
             </div>
             <div class="row mt-3">
-              <div class="col-md-2 col-3">
+              <div class="col-md-3 col-lg-3 col-3">
                 <div class="bg-success-custom text-success rounded-1 p-2 text-center">
                   <i class="fas fa-shopping-cart" style="font-size: 1em"></i>
                 </div>
               </div>
-              <div class="col-md-10 col-9 text-muted f-w-500 p-2">Food</div>
+              <div class="col-md-9 col-lg-9 col-9 text-muted f-w-500 p-2">Food</div>
             </div>
             <div class="row mt-3">
-              <div class="col-md-2 col-3">
+              <div class="col-md-3 col-lg-3 col-3">
                 <div class="bg-danger-custom text-danger rounded-1 p-2 text-center">
                   <i class="fas fa-th-large" style="font-size: 1em"></i>
                 </div>
               </div>
-              <div class="col-md-10 col-9 text-muted f-w-500 p-2">Gaming</div>
+              <div class="col-md-9 col-lg-9 col-9 text-muted f-w-500 p-2">Gaming</div>
             </div>
             <div class="row mt-3">
-              <div class="col-md-2 col-3">
+              <div class="col-md-3 col-lg-3 col-3">
                 <div class="bg-info-custom text-info rounded-1 p-2 text-center">
                   <i class="fas fa-hashtag" style="font-size: 1em"></i>
                 </div>
               </div>
-              <div class="col-md-10 col-9 text-muted f-w-500 p-2">Quote</div>
+              <div class="col-md-9 col-lg-9 col-9 text-muted f-w-500 p-2">Quote</div>
             </div>
             <div class="row mt-3">
-              <div class="col-md-2 col-3">
+              <div class="col-md-3 col-lg-3 col-3">
                 <div class="bg-warning-custom text-warning rounded-1 p-2 text-center">
                   <i class="fas fa-video" style="font-size: 1em"></i>
                 </div>
               </div>
-              <div class="col-md-10 col-9 text-muted f-w-500 p-2">Video</div>
+              <div class="col-md-9 col-lg-9 col-9 text-muted f-w-500 p-2">Video</div>
             </div>
           </div>
           <!-- End Categories -->
@@ -323,7 +323,7 @@ export default {
     color: #7367EF !important;
   }
   .recent-post-img {
-    height: 100px;
+    height: 80px;
     width: 100%;
     max-height: 100px;
     object-fit: cover;
