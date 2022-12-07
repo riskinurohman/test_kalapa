@@ -1,6 +1,7 @@
 <template>
-  <aside class="sidebar bg-white p-3 text-center">
+  <aside class="sidebar bg-white p-3 text-center rounded-bottom">
     <ul>
+      <li><a href="javascript:void(0)"><img :src="logo" class="img-fluid" style="width: 30px"/></a></li>
       <li><a href="javascript:void(0)"><i class="fa fa-eye"></i></a></li>
       <li><a href="javascript:void(0)"><i class="fas fa-window-maximize"></i></a></li>
       <li><a href="javascript:void(0)"><i class="fas fa-briefcase"></i></a></li>
@@ -9,7 +10,7 @@
     </ul>
 
     <!-- Divider -->
-    <div class="pt-3 pb-3" style="color: #6C6A77">
+    <div class="pt-2 pb-2" style="color: #A6A4B1">
       <i class="fas fa-ellipsis-h"></i>
     </div>
     <!-- End Divider -->
@@ -24,11 +25,23 @@
   </aside>
 </template>
 <script>
+import Logo from "../assets/images/logo.png"
+
 export default {
-  name: 'Sidebar'
-}
+  name: 'Sidebar',
+  data: function() {
+    return {
+      logo: Logo
+    }
+  }
+} 
 </script>
 <style scoped>
+  @media (min-width: 375px) and (max-width: 915px) {
+    .sidebar {
+      display: none;
+    }
+  }
   .sidebar {
     width: 100px;
     font-size: 1.5em;
